@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Login Form</title>
+    </head>
+    <body>
+
+        <h1>Login Form</h1>
+        <form action="check.php" method="get">
+            <fieldset>
+            <input type="text" name="user_name" placeholder="Full Name" minlength="10" maxlength="50" size="12"> <br>
+            <input type="email" name="uer_email" placeholder="User Email"> <br>
+            <input type="password" name="user_password" palceholder="Enter Password" minlenght="8"> <br>
+            <input type="submit">
+            <fieldset>
+        </form>
+
+        <h2>Registration</h2>
+        <form action="register.php" method="psot" enctype="multipart/form-data">
+            <input type="hidden" name="user_id" vale="45">
+            <input type="text" name="user_name" value="AKP" readonly="readonly"><br>
+            <textarea name="address" placeholder="Enter Address" cols="30" rows="10" required="required"></textarea> <br>
+            <input type="radio" name="gender" value="male" checked="checked"><label for="male">Male</label>
+            <input type="radio" name="gender" value="female"><label for="female">Female</label><br>
+            Interests: <br>
+            <input type="checkbox" name="php" id="php" value="php" checked="checked"> <label for="php">PHP</label>
+            <input type="checkbox" name="js" id="js" value="js"> <label for="js">JS</label>
+            <input type="checkbox" name="css" id="css" value="css"> <label for="css">CSS</label> <br>
+            Education:<br>
+            <select name="education" multipule="multipule">
+                <option value="1">Diploma</option>
+                <option value="2">Bachelor</option>
+                <option value="3" selected="selected">Master</option>
+            </select><br><br>
+            <input type="date" name="dob"> <br><br>
+            <input type="file" name="photo"> <br><br>
+            <input type="number" name="age" placeholder="Your Age" min="18" max="100" step="5"> <br><br>
+            <input type="number" name="height" placeholder="Your Height in inches" step="0.01"> <br><br> 
+            <input type="button" value="Click Me">
+            <button>Click Me</button>
+            <input type="submit" value="Register">
+            <input type="reset" value="clear">
+
+
+        </form>
+        
+
+
+        "<iframe width="560" height="315" src="https://www.youtube.com/embed/9oHUYu4Itt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>">
+
+    </body>
+</html>
